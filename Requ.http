@@ -1,0 +1,60 @@
+### add new circle
+POST localhost:8080/circle
+content-type: application/json
+
+{
+  "figureSize" : 15
+}
+
+### add new rectangle
+POST localhost:8080/rectangle
+content-type: application/json
+
+{
+  "figureSize" : 15,
+  "y": 2
+}
+
+### add new square
+POST localhost:8080/square
+content-type: application/json
+
+{
+  "figureSize" : 14
+}
+
+### add new triangle
+POST localhost:8080/triangle
+content-type: application/json
+
+{
+  "figureSize" : 15,
+  "a": 2,
+  "c": 1
+}
+
+### add new triangle
+POST localhost:8080/triangle
+content-type: application/json
+
+{
+  "figureSize" : 12,
+  "a": 3,
+  "c": 1
+}
+
+### add new triangle
+POST localhost:8080/triangle
+content-type: application/json
+
+{
+  "figureSize" : 10,
+  "a": 10,
+  "c": 10
+}
+
+### get all figures
+GET localhost:8080/figure
+
+### get all triangle
+GET localhost:8080/triangle
